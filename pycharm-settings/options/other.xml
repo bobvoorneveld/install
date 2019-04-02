@@ -20,32 +20,10 @@
     <property name="TypoScriptHasValidLicenseUntilTimestamp" value="-4" />
     <property name="TypoScriptNotificationStartsWithoutAd" value="0" />
     <property name="TypoScriptNotificationStartsWithoutAdExpiredVersion" value="0" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python&#10;/Users/redmerloen/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3&#10;/Users/redmerloen/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python" />
     <property name="file.gist.reindex.count" value="43233" />
     <property name="fileTypeChangedCounter" value="18" />
     <property name="lastTip" value="4" />
     <property name="settings.code.style.selected.tab.Python" value="Other" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
-  </component>
-  <component name="PyTestFrameworkService">
-    <option name="SDK_TO_PYTEST">
-      <map>
-        <entry key="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python" value="false" />
-        <entry key="$USER_HOME$/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3" value="false" />
-        <entry key="/usr/local/bin/python3.7" value="false" />
-      </map>
-    </option>
-    <option name="SDK_TO_NOSETEST">
-      <map>
-        <entry key="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python" value="false" />
-        <entry key="$USER_HOME$/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3" value="false" />
-      </map>
-    </option>
-    <option name="SDK_TO_TRIALTEST">
-      <map>
-        <entry key="$USER_HOME$/.local/share/virtualenvs/Dropper-Ba6Hgd4m/bin/python" value="true" />
-        <entry key="$USER_HOME$/.local/share/virtualenvs/Fooddrop-VTm2-uTU/bin/python3" value="false" />
-      </map>
-    </option>
   </component>
 </application>

@@ -3,7 +3,7 @@
 CURRENT_DIR=`pwd`
 
 cd ~/
-git clone git@github.com:redmerloen/install.git
+git clone git@github.com:bobvoorneveld/install.git
 cp install/Fonts/* ~/Library/Fonts
 
 mkdir -p ~/Library/Preferences/PyCharmCE2019.1/

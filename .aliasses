@@ -17,3 +17,8 @@ alias dockerclean='dockercleanc || true && dockercleani'
 alias dockercleanall='docker rm $(docker ps -a -q) && docker rmi $(docker images -q) && docker volume rm $(docker volume ls |awk "{print $2}") && rm -rf ~/Library/Containers/com.docker.docker/Data/*'
 
 alias brall='brew -v update && brew upgrade && brew cleanup && brew prune && rm -rf ~/Library/Caches/Homebrew/*'
+
+alias doco='docker-compose'
+alias dup='docker-compose run --rm --service-ports web'
+alias dman='docker-compose run --rm web pipenv run python manage.py'
+alias dtest='dman test --time --keepdb --parallel 4 --exclude-tag=slow'

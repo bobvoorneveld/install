@@ -26,10 +26,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 export PATH="~/.npm/bin/:$PATH"
 
-export PATH="/Users/redmerloen/Programming/PurpleGorilla/mergepbx:$PATH"
-
-export PATH="/Users/redmerloen/.composer/vendor/bin:$PATH"
-
 export PATH=$PATH:/Applications/MySQLWorkbench.app/Contents/MacOS
 
 export PATH=/usr/local/opt/python/libexec/bin:$PATH

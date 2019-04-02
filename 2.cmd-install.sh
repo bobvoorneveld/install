@@ -13,13 +13,13 @@ brew cask install iterm2
 
 # download ZSH theme
 cd ~/.oh-my-zsh/themes
-curl -O "https://raw.githubusercontent.com/redmerloen/install/master/.oh-my-zsh/themes/cobalt2.zsh-theme"
+curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.oh-my-zsh/themes/cobalt2.zsh-theme"
 
 # download zsh configration
 cd ~/.
-curl -O "https://raw.githubusercontent.com/redmerloen/install/master/.zshrc"
-curl -O "https://raw.githubusercontent.com/redmerloen/install/master/.aliasses"
-curl -O "https://raw.githubusercontent.com/redmerloen/install/master/.path_exports"
+curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.zshrc"
+curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.aliasses"
+curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.path_exports"
 
 # install shell integration & utilities
 curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
