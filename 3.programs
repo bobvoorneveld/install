@@ -15,10 +15,14 @@ mas install 497799835 # XCode
 
 xcode-select --install
 
+brew tap caskroom/versions
+
 brew install python3
 brew install pipenv
 
+brew cask install java8
 brew cask install android-studio
+brew cask install android-sdk
 brew cask install dashlane
 brew cask install docker
 brew cask install google-chrome
