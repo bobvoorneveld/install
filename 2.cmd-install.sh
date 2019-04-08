@@ -11,15 +11,9 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 # install iterm2
 brew cask install iterm2
 
-# download ZSH theme
-cd ~/.oh-my-zsh/themes
-curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.oh-my-zsh/themes/cobalt2.zsh-theme"
-
 # download zsh configration
-cd ~/.
-curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.zshrc"
-curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.aliasses"
-curl -O "https://raw.githubusercontent.com/bobvoorneveld/install/master/.path_exports"
+git clone https://raw.githubusercontent.com/bobvoorneveld/install/ ~/Projects/install
+ln -s ~/Projects/install/.zshrc ~/.zshrc
 
 # install shell integration & utilities
 curl -L https://iterm2.com/misc/install_shell_integration.sh | bash

@@ -38,3 +38,6 @@ export LDFLAGS="-L/usr/local/opt/icu4c/lib"
 export CPPFLAGS="-I/usr/local/opt/icu4c/include"
 
 export PATH="$HOME/.fastlane/bin:$PATH"
+
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+export LIBRARY_PATH="$LIBRARY_PATH:/usr/local/opt/openssl/lib/"
